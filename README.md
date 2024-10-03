@@ -47,10 +47,6 @@ Install Dependencies:
 Run the following command to install the necessary packages:
 
 npm install
-Set up Environment Variables:
-
-Create a .env file in the root directory and add the following environment variables:
-REACT_APP_API_URL=http://localhost:5000/
 
 ## Running the Application
 Start the Development Server:
