@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8080/';  // Localy Base URL
-// const API_BASE_URL = 'https://blog-app-backend-nest-js.vercel.app/';  // Live Base URL
+// const API_BASE_URL = 'http://localhost:8080/';  // Localy Base URL
+const API_BASE_URL = 'https://task-management-nodejs.vercel.app/';  // Live Base URL
 
 export const api = axios.create({
     baseURL: API_BASE_URL,
