@@ -38,11 +38,9 @@ const UserModal = ({ show, handleClose, user, actionType, fetchUsers }) => {
                 toast.error('Error fetching users');
             }
         };
-
-        if (role === 1) {
             fetchAllUsers();
         }
-    }, [role]);
+    }, []);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
