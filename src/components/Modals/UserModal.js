@@ -39,7 +39,6 @@ const UserModal = ({ show, handleClose, user, actionType, fetchUsers }) => {
             }
         };
             fetchAllUsers();
-        }
     }, []);
 
     const handleSubmit = async (e) => {
